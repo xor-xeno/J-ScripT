@@ -4,7 +4,8 @@ const newQuoteButton = document.querySelector("button"); // Assuming this is the
 const tweetButton = document.querySelectorAll("button")[1]; // Assuming this is the second button
 
 const apiUrl = "https://api.api-ninjas.com/v1/quotes";
-const apiKey = "sDHIVHvQr9IgaVv/eBgtrg==EI6yxwqbrJvTx0ci"; 
+const apiKey = '---------';//https://api-ninjas.com/ get key from this website for free
+
 
 function fetchQuote() {
     fetch(apiUrl, {
